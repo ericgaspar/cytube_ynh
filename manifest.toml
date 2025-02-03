@@ -45,36 +45,19 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
-    [install.language]
-    ask.en = "Choose the application language"
-    ask.fr = "Choisissez la langue de l'application"
-    type = "select"
-    choices = ["fr", "en"]
-    default = "fr"
-
-    [install.admin]
-    type = "user"
-
-    [install.password]
-    help.en = "Use the help field to add an information for the admin about this question."
-    help.fr = "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
-    type = "password"
-
 [resources]
 
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/foo/bar/archive/refs/tags/v1.2.3.tar.gz"
-    sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
+    url = "https://github.com/calzoneman/sync/archive/9738c3f8c8bb3d9798ee5b5a98a77a21a229112a.tar.gz"
+    sha256 = "7f65e684ddc5615dc047ac71fbbb4df760da92bf6992d41cfe117cfcc8d1d4d8"
 
     # autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
 
     [resources.install_dir]
-
-    [resources.data_dir]
 
     [resources.permissions]
     main.url = "/"
